@@ -1,0 +1,17 @@
+{
+  "name": "base-bridge",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "5"
+  },
+  "dependencies": {
+    "@solana-program/system": "0.8.1",
+    "@solana/kit": "2.3.0",
+    "viem": "2.37.12"
+  }
+}
