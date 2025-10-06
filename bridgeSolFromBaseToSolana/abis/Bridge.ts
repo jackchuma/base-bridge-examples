@@ -760,7 +760,7 @@ export default [
   },
   {
     type: "event",
-    name: "MessageInitiated",
+    name: "MessageRegistered",
     inputs: [
       {
         name: "messageHash",

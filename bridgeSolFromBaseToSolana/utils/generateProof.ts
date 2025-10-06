@@ -38,7 +38,7 @@ export async function generateProof(
           topics: log.topics,
         });
 
-        return decodedLog.eventName === "MessageInitiated"
+        return decodedLog.eventName === "MessageRegistered"
           ? {
               messageHash: decodedLog.args.messageHash,
               mmrRoot: decodedLog.args.mmrRoot,
